@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+    }
+
+    
+    .one .two .three {
+        padding: 7px;
+
+    }
+
+    .one{
+        background-color: white;
+        padding: 7px;
+        border: solid black thin ;
+        width: 50%;
+        margin-bottom: 7px;
+       
+    }
+    .two{
+        background-color: white;
+        padding: 7px;
+        border: dashed black thin;
+        width: 50%;
+
+    }
+     .p2{
+        padding: 7px;
+        border: dashed red ;
+        margin-bottom: 7px;
+        
+     }
+     .three{
+        background-color: white;
+        color: purple;
+        margin-top: 7px;
+        padding: 7px;
+        border: solid black thin ;
+        width:50%
+        
+     }
+    .huda{
+      
+        background-color: orange;
+        font-style: italic 5px;
+      
+    }
