@@ -1,4 +1,4 @@
-body{
+.a{
     background-color: antiquewhite;
     }
 
@@ -43,4 +43,19 @@ body{
         background-color: orange;
         font-style: italic 5px;
       
+    }
+
+    .A{
+        text-decoration: underline;
+    }
+
+    .C{
+        color: blue;
+    
+    }
+    .B{
+        color: orange;
+    }
+    .D{
+        background-color: cornflowerblue;
     }
