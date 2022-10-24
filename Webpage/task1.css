@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+hr{
+    border:#333333 outset 1px;
+    height: 4px;
+    background-image:url('./note.jpg');
+   
+
+}
+.fa-square-facebook{
+    color: blue;
+
+    }
+    .fa-square-twitter{
+        color:lightskyblue;
+    }
+.fa-square-google-plus{
+    color:red
+}
+.fa-square-instagram{
+    color:purple;
+}
+.fa-envelope{
+    color:red;
+}
+.container{
+   
+    width: 50%;
+    margin: 0 auto;
+}
+
+.semiContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.leftSide{
+    display: flex;
+}
+.title{
+    margin-left: 4px;
+}
+.title p{
+    font-size: 10px;
+}
+.icon{
+    font-size: 1.3rem;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.fa-solid.fa-utensils{
+    font-size: 2rem;
+    color: #fff;
+    background-color:limegreen;
+    padding: 4px;
+    border-radius: 30%;
+}
+
+
+.title2{
+    font-weight: 600;
+    font-size: 1,2rem;
+}
+
+.chocolate{
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+.third p{
+    margin-top: 10px;
+}
+
+.notepad{
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+    background-image: url('./note.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-inline: 7px;
+}
+.notepad div{
+    margin-right: 10px;
+}
+
+.fourth{
+    margin: 5px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+}
+.content{
+    margin-right: 40px;
+}
+.van{
+    width: 60px;
+    border-radius: 50%;
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin-top: 65px;
+    border: 3px solid #000;
+    background-color: crimson;
+    color: #fff;
+}
+
+.text{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text > *{
+    margin: 20px;
+}
