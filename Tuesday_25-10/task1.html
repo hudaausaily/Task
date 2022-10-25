@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex2</title>
+    <style>
+        body{
+
+           display: flex;
+           justify-content: center;
+           background-color: rgb(240, 227, 143);
+
+        }
+
+        hr{
+            width: 200px;
+        }
+        .cont{
+            height: 450px;
+            width: 400px;
+            border: 1px solid white;
+            border-radius: 50px;
+            background-color: white;
+        }
+        .child{
+            display: flex;
+            align-items: center;
+            margin-left: 16px;
+            padding: 8px;
+
+
+        }
+        .child img {
+           width: 50px;
+           height: 50px;
+           border-radius: 15px;
+           margin-right: 12px;
+          margin-top: 10px;
+
+        }
+        .child2 {
+            margin-top: -10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+
+    <div class="child">
+        <img src="./user.png" alt="user">
+        <div class="child2">
+        <h4>User#1</h4>
+        <p>Amman,Jordan</p> 
+        <hr>
+        </div>
+    </div>
+
+    <div class="child">
+        <img src="./user.png" alt="user">
+        <div class="child2">
+            <h4>User#2</h4>
+            <p>salt,Jordan</p> 
+            <hr>
+        </div>
+    </div>
+
+    <div class="child" >
+        <img src="./user.png" alt="user">
+        <div class="child2">
+        <h4>User#3</h4>
+        <p>zarqa,Jordan</p>
+        <hr>
+        </div> 
+    </div>
+
+    <div class="child">
+        <img src="./user.png" alt="user">
+        <div class="child2">
+        <h4>User#4</h4>
+        <p>irbid,Jordan</p>
+        <hr> 
+        </div>
+    </div>
+    </div>
+</body>
+</html>
