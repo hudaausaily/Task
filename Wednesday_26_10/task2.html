@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;  
+            justify-content: center;
+        }
+        .grid{
+        display: grid;
+        width: 400px;
+        height: 300px;
+        grid-template-rows: auto auto auto;
+        background-color: #fff;
+        border: 7px solid #fff;
+        gap: 7px;
+        
+        }
+        .item{
+            padding: 10px;
+            background-color: rgb(153, 230, 204);
+        }
+        .A1{
+            font-size: 34px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .A2{
+            text-align: center;
+        }
+        .A2 > button{
+            background-color: #fff;
+            border: none;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item A1">I'm card</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure magnam quaerat quisquam incidunt. A voluptates aliquam commodi quaerat doloribus, illo ea dolor ducimus.</div>
+        <div class="item A2">
+            <p>and</p>
+            <button>BIG BUTTON</button>
+        </div>
+    </div>
+</body>
+</html>
